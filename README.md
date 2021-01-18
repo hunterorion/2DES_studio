@@ -11,11 +11,11 @@ This software package can be used without writing a single line of code, just do
 
 Once the software is open the first thing you will need to do is open up the dataset you want to explore to do this go to File>Open Data or press Ctrl+O this will open up a window prompt where you can select the dataset you would like to open.
 
-<b>NB<b> The datasets used with this software must use the csv file format and have the following layout: first cell is empty, first row excitation wavelengths, first column emission wavelengths and the rest of the cells contain the intensity data.
+<b>NB</b> The datasets used with this software must use the csv file format and have the following layout: first cell is empty, first row excitation wavelengths, first column emission wavelengths and the rest of the cells contain the intensity data.
   
 Once opened the data can be explored using either the view or fit tabs, the view tab allows for a large view of the contour plot, while the fit tabs focuses more on the 1D-slices. To move through the 1D-slices in the data hover the mouse over the 1D-plots and scroll the mouse wheel this will move forward and backwards through the available 1D-spectral slices.
 
-To open model files and determine their quality of fit ot the open dataset go to File> Open Model or press Ctrl+M this will open up a window prompt where you can select the model you would like to open. However, there are 3 criteria you fulfill:
+To open model files and determine their quality of fit to the open dataset go to File> Open Model or press Ctrl+M this will open up a window prompt where you can select the model you would like to open. However, there are 3 criteria you fulfill:
 1. A dataset must be open to view a model
 2. The model must be a csv file and have the following format row 1 headings (Amplitude,X-Center (nm),Y-Center (nm),X-Width	Y-Width,lineshape,draw), each following row is a new 2D-lineshape. The software solely supports gaussian lineshapes currently; however, more lineshapes are planned in the future.
 3. The M0 matrix must be present in the programs main directory, this file provides infromation on where spectral data has been collected in the experimental data meaning any modelled features outside the collected spectral range are discarded when determining the quality of fit. The M0.csv file provided is for emission spectral data sampled 30 nm away from the excitation wavelength. However, this may need to be modified or replaced if you have a different setup.
