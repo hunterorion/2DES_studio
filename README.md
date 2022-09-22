@@ -1,4 +1,4 @@
-# 2DFM Studio
+# 2DES Studio
 Daniel J. Oliver & Carole C. Perry
 
 Interdisciplinary Biomedical Research Centre, School of Science and Technology, Nottingham Trent University, Clifton Lane, Nottingham NG11 8NS, United Kingdom.
