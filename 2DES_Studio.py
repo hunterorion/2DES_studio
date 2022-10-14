@@ -13,7 +13,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 #Upon opening a new file the axes are still not clearing properly this needs to be addressed!!
 class _2DFM_Studio(Framework):
     def __init__(self, root):
-        super().__init__(root,title="2DFM_Studio",versionNo="0.1a")
+        super().__init__(root,title="2DES Studio",versionNo="1.0")
         self.create_gui()
         self._2DFM = _2DFM()
         self.model = Modelling()
