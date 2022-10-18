@@ -84,7 +84,7 @@ class _2DFM(Spectrum):
         tabDict["{0}_orig_loc".format(ax)] = tabDict[ax].get_axes_locator()
         tabDict["{0}_cax".format(ax)] = make_axes_locatable(tabDict[ax]).append_axes("right", size="5%", pad=0.05)
         tabDict["{0}_cb".format(ax)] = tabDict["fig"].colorbar(psm, cax=tabDict["{0}_cax".format(ax)])     
-        tabDict["{0}_cb".format(ax)].set_label("Fluoresence")
+        tabDict["{0}_cb".format(ax)].set_label("Intensity")
         
         if title != None:
             tabDict[ax].set_title(title)

@@ -7,7 +7,7 @@ Interdisciplinary Biomedical Research Centre, School of Science and Technology, 
 Software was developed to fit 2D-lineshapes to 2D-datasets and allows the user to simultaneously visualise the topology of the data and the model as well as individual horizontal or vertical 1D-slices to obtain a high quality of fit without having to write a line of code.
 
 ## User Guide
-This software package can be used without writing a single line of code, just download the repository and run the 2DFM_Studio.py script.
+This software package can be used without writing a single line of code, just download the repository and run the 2DES_Studio.py script.
 
 <p align="center"><img src="/imgs/software_img1.png" width="500" height="500"/></p>
 
